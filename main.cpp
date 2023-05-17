@@ -6,7 +6,7 @@ int main() {
     char b;
     cin>>b;
     if (verifica(b)){
-        cout<<"vero"<<endl;
+        cout<<"vero";
         cout << conversione (b);
     }else {
         cout<<"errore"<<endl;
