@@ -9,7 +9,8 @@ int main() {
         cout<<"vero";
         cout << conversione (b);
     }else {
-        cout<<"errore"<<endl;
+       string falso= "errore";
+        cout<<falso;
     }
 
     return 0;
