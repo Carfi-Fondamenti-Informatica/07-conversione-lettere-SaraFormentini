@@ -6,12 +6,12 @@ int main() {
     char b;
     cin>>b;
     if (verifica(b)){
-        cout<<"vero";
-        cout << conversione (b);
-    }else {
-       string falso= "errore";
-        cout<<falso;
+        cout<<conversione(b);
+    }else{
+        cout<<"errore";
     }
+
 
     return 0;
 }
+
